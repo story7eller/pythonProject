@@ -35,7 +35,7 @@ def body(location , width, height , k):
     ellipse(screen, grey, [x1, y1, width * k, height * k])
     return center
 
-def change_pos(pos, newpos, k):
+def change_pos(pos, newpos, k) -> int :
 
     pos[0] = pos[0] + newpos[0]*k
     pos[1] = pos[1] + newpos[1]*k
