@@ -101,7 +101,7 @@ b = (a**2 - c**2)**0.5
 
 
 
-
+'''documentation added'''
 
 
 
